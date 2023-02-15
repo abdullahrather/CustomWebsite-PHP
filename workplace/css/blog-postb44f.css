@@ -1,0 +1,27 @@
+/*!
+ * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.blog_list_image_div .blog_list_image{width: 100%;}
+.blog_date_span{background: #f2f2f2;}
+span.blog_title_span h2{width: 80%;}
+span.blog_title_span span.blog_date_span{width: 20%; float: right;}
+.blog_title_span a {background: #019bd6;color: #fff;padding: 6px 10px;display: inline-block;border-radius: 4px;line-height: normal;font-size: 13px;}
+.blog_title_span p {margin: 0px 0 10px 0;font-size: 14px;color: #666;}
+.blog_date_span {background: rgba(0, 0, 0, 0.05);display: inline-block;padding: 6px 8px 8px;margin-top: 10px;text-transform: uppercase;line-height: normal;font-size: 12px;text-align: center;color: #999;position: absolute;right: 0;top: 0;}
+.blog_title_span h2 {line-height: 40px;font-weight: normal;font-style: normal;font-size: 32px;margin: 0;padding-top: 10px;padding-bottom: 10px;}
+.blog_title_span {position: relative;padding-right: 60px;}
+span.span_big {font-size: 24px;display: block;font-weight: bold;line-height: 100%;}
+.section_one {margin-bottom: 40px;padding: 0;border: 1px solid;border-color: #eee;border-color: rgba(0,0,0,.05);}
+.section_blog_wrapper{padding: 50px 0;}
+.a2a_kit.a2a_kit_size_32.a2a_default_style a span{height: 20px; width: 20px;}
