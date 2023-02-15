@@ -201,7 +201,7 @@ Freedom To</strong></span><span style="font-size: 28px;"><strong>&nbsp;Choose Yo
                     <input name="data[MoreInfo][phone]" placeholder="Telephone" class="form-control" maxlength="255" type="tel" id="MoreInfoPhone" required="required"/>                </div>
                 <div class="input-group form-group">
                     <span class="input-group-addon"><i class="fa fa-align-left"></i></span>
-                    <textarea name="data[MoreInfo][massage]" placeholder="Message" class="form-control" id="MoreInfoMassage"></textarea>                </div>
+                    <textarea name="data[MoreInfo][massage]" placeholder="Message" class="form-control" id="MoreInfoMassage" required="required"></textarea>                </div>
                 <div class="form-group text-right">
                     <button  class="btn btn-blue">Send</button>
                 </div>
