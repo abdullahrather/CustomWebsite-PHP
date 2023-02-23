@@ -235,11 +235,11 @@ Freedom To</strong></span><span style="font-size: 28px;"><strong>&nbsp;Choose Yo
                     <div style="display:none;"><input type="hidden" name="_method" value="POST" /></div>
                     <div class="input-group form-group">
                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                        <input name="data[MoreInfo][firstname]" placeholder="First name" class="form-control" maxlength="255" type="text" id="MoreInfoFirstname" required="required" />
+                        <input name="data[MoreInfo][firstname]" placeholder="First Name" class="form-control" maxlength="255" type="text" id="MoreInfoFirstname" required="required" />
                     </div>
                     <div class="input-group form-group">
                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                        <input name="data[MoreInfo][lastname]" placeholder="Last name" class="form-control" maxlength="255" type="text" id="MoreInfoLastname" required="required" />
+                        <input name="data[MoreInfo][lastname]" placeholder="Last Name" class="form-control" maxlength="255" type="text" id="MoreInfoLastname" required="required" />
                     </div>
                     <div class="input-group form-group">
                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
