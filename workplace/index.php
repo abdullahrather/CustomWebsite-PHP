@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?><!DOCTYPE html>
 <html lang="en-US">
     
 <head>
@@ -187,26 +189,37 @@ Freedom To</strong></span><span style="font-size: 28px;"><strong>&nbsp;Choose Yo
             <div class="col-md-12">
                 <h3>Request More Information</h3>
                 <form id="MoreInfoIndexForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>
-                <div class="input-group form-group">
-                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input name="data[MoreInfo][firstname]" placeholder="First name" class="form-control" maxlength="255" type="text" id="MoreInfoFirstname" required="required"/>                </div>
-                <div class="input-group form-group">
-                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input name="data[MoreInfo][lastname]" placeholder="Last name" class="form-control" maxlength="255" type="text" id="MoreInfoLastname" required="required"/>                </div>
-                <div class="input-group form-group">
-                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                    <input name="data[MoreInfo][email]" placeholder="Email Address" class="form-control" maxlength="255" type="email" id="MoreInfoEmail" required="required"/>                </div>
-                <div class="input-group form-group">
-                    <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
-                    <input name="data[MoreInfo][phone]" placeholder="Telephone" class="form-control" maxlength="255" type="tel" id="MoreInfoPhone" required="required"/>                </div>
-                <div class="input-group form-group">
-                    <span class="input-group-addon"><i class="fa fa-align-left"></i></span>
-                    <textarea name="data[MoreInfo][massage]" placeholder="Message" class="form-control" id="MoreInfoMassage" required="required"></textarea>                </div>
-                <div class="form-group text-right">
-                    <button  class="btn btn-blue">Send</button>
-                </div>
+                    <div class="input-group form-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input name="data[MoreInfo][firstname]" placeholder="First name" class="form-control" maxlength="255" type="text" id="MoreInfoFirstname" required="required"/>                
+                    </div>
+                    <div class="input-group form-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input name="data[MoreInfo][lastname]" placeholder="Last name" class="form-control" maxlength="255" type="text" id="MoreInfoLastname" required="required"/>                
+                    </div>
+                    <div class="input-group form-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                        <input name="data[MoreInfo][email]" placeholder="Email Address" class="form-control" maxlength="255" type="email" id="MoreInfoEmail" required="required"/>                
+                    </div>
+                    <div class="input-group form-group">
+                        <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
+                        <input name="data[MoreInfo][phone]" placeholder="Telephone" class="form-control" maxlength="255" type="tel" id="MoreInfoPhone" required="required"/>                
+                    </div>
+                    <div class="input-group form-group">
+                        <span class="input-group-addon"><i class="fa fa-align-left"></i></span>
+                        <textarea name="data[MoreInfo][massage]" placeholder="Message" class="form-control" id="MoreInfoMassage" required="required"></textarea>                
+                    </div>
+                    <div class="input-group form-group">
+                        <span   class="input-group-addon"><i class="fa fa-shield"></i></span>
+                        <input style="    height: 45px;" name="captcha" placeholder="Enter the text above" class="form-control" maxlength="255" type="text" id="captcha" required="required"/>
+                        <span class="input-group-addon"><img src="captcha.php" alt="Captcha"></span>
+                    </div>
+                    <div class="form-group text-right">
+                        <button  class="btn btn-blue" name="submit">Send</button>
+                    </div>
                 </form>
-            <?php include_once "MoreInfoIndexFormAPI.php" ?>            </div>
+              <?php include_once "MoreInfoIndexFormAPI.php" ?>            
+            </div>
             <div class="col-md-12">
                 <a class="btn btn-lg btn-blue" href="get_brochure.php" style="width: 100% !important;">Request Brochure</a>
             </div>
