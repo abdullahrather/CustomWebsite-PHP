@@ -39,36 +39,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <!-- Display the success or error message -->
-<?php if (!empty($success_message)) : ?>
+<?php if  (!empty($success_message))  : ?>
     <div class="<?php echo $class; ?>">
         <?php echo $success_message; ?>
     </div>
 <?php endif; ?>
 
-<?php if (!empty($error_message)) : ?>
+<?php if  (!empty($error_message))  : ?>
     <div class="<?php echo $class; ?>">
         <?php echo $error_message; ?>
     </div>
 <?php endif; ?>
 
 <style>
-    .success {
-        background-color: #d4edda;
-        color: #155724;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        border: 1px solid #c3e6cb;
-        border-radius: .25rem;
-        font-weight: bold;
-    }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #c3e6cb;
+            border-radius: .25rem;
+            font-weight: bold;
+        }
 
-    .error {
-        background-color: #f8d7da;
-        color: #721c24;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        border: 1px solid #f5c6cb;
-        border-radius: .25rem;
-        font-weight: bold;
-    }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #f5c6cb;
+            border-radius: .25rem;
+            font-weight: bold;
+        }
 </style>
