@@ -56,6 +56,13 @@
                         <input name="data[Brochure][phone]" class="form-control" placeholder="Contact Number" type="tel" id="BrochurePhone" />
                     </div>
                     <div class="form-group">
+                        <label>Captcha</label>
+                        <div class="input-group">
+                            <input style="height: 45px;" name="captcha" placeholder="Enter the code here" class="form-control" maxlength="255" type="text" id="captcha" required="required" />
+                            <span class="input-group-addon"><img src="captcha.php" alt="Captcha"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label>
                             <input type="checkbox" name="is_agree" id="is_agree" value="0" />
                             <span>Please tick the box if you're happy for us to contact you further regarding County Medical products.</span>

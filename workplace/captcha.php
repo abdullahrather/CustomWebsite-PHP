@@ -19,4 +19,3 @@ imagedestroy($image);
 
 // Unset the CAPTCHA code from the session
 // unset($_SESSION['captcha_code']);
-?>

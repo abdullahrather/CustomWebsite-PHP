@@ -255,7 +255,7 @@ Freedom To</strong></span><span style="font-size: 28px;"><strong>&nbsp;Choose Yo
                     </div>
                     <div class="input-group form-group">
                         <span class="input-group-addon"><i class="fa fa-shield"></i></span>
-                        <input style="    height: 45px;" name="captcha" placeholder="Enter the text above" class="form-control" maxlength="255" type="text" id="captcha" required="required" />
+                        <input style="height: 45px;" name="captcha" placeholder="Enter the code here" class="form-control" maxlength="255" type="text" id="captcha" required="required" />
                         <span class="input-group-addon"><img src="captcha.php" alt="Captcha"></span>
                     </div>
                     <div class="form-group text-right">
